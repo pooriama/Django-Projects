@@ -1,0 +1,60 @@
+{
+	"id": "0c8ee402-8f92-356d-7b93-2836c5650fc6",
+	"name": "Advanced python project",
+	"description": "",
+	"order": [
+		"28c9d961-5086-baa2-26fe-6098038fe08d"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1569759826830,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "28c9d961-5086-baa2-26fe-6098038fe08d",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:8000/firstapp/insert_post/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "0c8ee402-8f92-356d-7b93-2836c5650fc6",
+			"data": [
+				{
+					"key": "title",
+					"value": "test4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "test1pic",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "file",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "http://127.0.0.1:8000/firstapp/insert_post/",
+			"description": "add title and add description and add a image, after that you can see the result.\nyou sent a image of cat or dog and the app distingush what type of animal is that.",
+			"descriptionFormat": "html",
+			"time": 1569761808572,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
